@@ -5,4 +5,4 @@ for i in range(len(str)):
     if str[i] in col:
         count += 1
         
-print(count)
+print("모음은 총",count, "개 입니다.")
