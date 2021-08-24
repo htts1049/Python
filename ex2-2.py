@@ -5,4 +5,4 @@ def remove_front_end(str):
 
 n = input("문자열을 입력하시오. : ")
 
-print("처음과 마지막 문자를 제거 : ", remove_front_end(n))
+print("처음과 마지막 문자를 제거했습니다. : ", remove_front_end(n))
