@@ -1,7 +1,8 @@
 def remove_front_end(str):
-    sen = str.replace(str[0],'')
-    sen = sen.replace(str[len(sen)],'')
-    return sen
+    new_str = str.strip(str[0])
+    new_str = new_str.strip(str[-1])
+    
+    return new_str
 
 n = input("문자열을 입력하시오. : ")
 
