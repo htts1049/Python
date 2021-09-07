@@ -1,4 +1,4 @@
-# map( function, iterable )
+# map( function, iterable ) 이터러블에 함수 실행
 
 my_list = [1, 2, 3, 4, 5]
 

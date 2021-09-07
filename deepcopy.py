@@ -13,7 +13,7 @@ b_list[2][1] = 0
 print("얕은복사 : ", a_list)
 
 # 리스트 내의 리스트는 참조였기 때문에 a_lsit의 내부리스트도 변경된다!
-# 이러한 문제는 copy 패키지안에 있는 deepcopy 함수를 통해 해결한다.
+# 이러한 문제는 copy 패키지안에 있는 deepcopy 함수를 통해 해결한다. 
 
 import copy
 
